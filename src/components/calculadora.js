@@ -48,10 +48,6 @@ class Calculadora extends React.Component{
                 <input type="text" name="operandoDos" value={operandoDos} onChange={this.changeHandler}></input>
                 </div>
                 <div class="col-sm-2">
-                <label>Resultado</label>
-                <input type="text"></input>
-                </div>
-                <div class="col-sm-2">
                 <button type="submit" class="btn btn-success">Calcular</button>
                 </div>
                 </form>
